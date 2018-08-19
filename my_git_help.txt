@@ -1,0 +1,16 @@
+git config --global user.name "mahesh nittur"
+git config --global user.email "maheshprasad.ns@gmail.com"
+git clone <url>
+git checkout -b <brach_name>
+cd <brach_name>
+
+#check the local copy of files
+#edit or add new files to the local git repo
+#do "git add <filename>" to add new files to repo
+git status
+#  -- list all changes and new files
+
+git commit -m "message" <filename>
+
+git push -u origin <brachname>
+# authenticate for git
