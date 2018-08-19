@@ -1,6 +1,7 @@
 import boto3
 #Git Repo add
 # Let's use Amazon S3
+#Yes via git prompt
 s3 = boto3.resource('s3')
 
 # Print out bucket names
